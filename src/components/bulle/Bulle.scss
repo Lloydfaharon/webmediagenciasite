@@ -1,0 +1,90 @@
+.bulle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px; /* Ajustez cette hauteur en fonction de vos besoins */
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 20px;
+  background-color: #f5f5f5; /* Exemple de fond pour le conteneur */
+  box-shadow: 0 4px 25px rgba(0, 43, 120, 0.15);
+  animation: fadeIn 4s ease-in-out forwards; /* Durée de 2s avec une transition douce */
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(
+        -20px
+      ); /* L'élément commencera légèrement au-dessus */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* L'élément reviendra à sa position normale */
+    }
+  }
+
+  @media (max-width: 881px) {
+    height: 150px;
+  }
+
+  @media (max-width: 480px) {
+    margin: 25px;
+    //margin-bottom: 30px;
+  }
+}
+
+.bulle-text {
+  position: relative;
+  font-size: 30px;
+  color: #333;
+  padding: 0 20px;
+  text-align: center;
+  @media (max-width: 881px) {
+    font-size: 25px;
+  }
+
+  @media (max-width: 612px) {
+    margin: 5px;
+    font-size: 19px;
+  }
+  @media (max-width: 390px) {
+    font-size: 17px;
+  }
+}
+
+.bulle-text::before,
+.bulle-text::after {
+  content: '"';
+  font-size: 50px;
+  color: rgb(8, 110, 234);
+  position: absolute;
+}
+
+.bulle-text::before {
+  left: -25px;
+  top: -10px;
+  @media (max-width: 881px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 480px) {
+    left: 0px;
+    top: 2px;
+  }
+}
+
+.bulle-text::after {
+  right: -25px;
+  bottom: -20px;
+  @media (max-width: 881px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 480px) {
+    right: 0px;
+    bottom: -10px;
+  }
+}

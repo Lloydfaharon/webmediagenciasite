@@ -1,0 +1,209 @@
+{
+    "services1": [
+      {
+        "id": 1,
+        "title": "Landing ou Homepage",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte11",
+        "description": [
+          "Page Unique",
+          "Design inclus",
+          "Formulaire de contact",
+          "Intégration & Mise en ligne"
+        ],
+        "link": "contact"
+      },
+      {
+        "id": 2,
+        "title": "Refonte site",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte22",
+        "description": [
+          "Identité visuelle & Logo",
+          "Intégration et Mise en ligne",
+          "Optimisation du SEO",
+          "Formulaire de contact",
+          "UX/UI Design",
+          "Animations"
+        ],
+        "link": "/marketing-digital"
+      },
+      {
+        "id": 3,
+        "title": "Site vitrine",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte33",
+        "description": [
+          "2 à 10 pages",
+          "Formulaire de contact",
+          "Optimisation du SEO",
+          "Navigation Responsive",
+          "Multi-langue"
+        ],
+        "link": "/creation-contenu"
+      },
+      {
+        "id": 4,
+        "title": "Site e-commerce",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte44",
+        "description": [
+          "Catalogue produit",
+          "Page Produit",
+          "Paiement sécurisé",
+          "Facturation",
+          "Livraison"
+        ],
+        "link": "/design-branding"
+      }
+    ],
+    "services2": [
+      {
+        "id": 1,
+        "title": "Communication",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte11",
+        "description": [
+          "Strategie de comunication",
+          "Création de planning éditorial",
+          "Redaction d'articles de blog & newsletters"
+        ],
+        "link": "/ServicePage1"
+      },
+      {
+        "id": 2,
+        "title": "Acquisition Prospect",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte22",
+        "description": [
+          "Publicité sur les moteurs de recherche et réseaux sociaux",
+          "Génération de Prospect (Lead Gen)",
+          "Acquisition Payante (Google, LinkedIn…)",
+          "Référencement Organique (SEO)",
+          "Optimisation &amp; Reporting des campagnes"
+        ],
+        "link": "/marketing-digital"
+      },
+      {
+        "id": 3,
+        "title": "Stratégie Marketing",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte33",
+        "description": [
+          "Etude des enjeux marketing et commerciaux",
+          "Définition &amp; Mise en place de la Stratégie Marketing",
+          "Priorisation et Structuration des actions et canaux",
+          "Définition du budget",
+          "Constitution d’un planning"
+        ],
+        "link": "/creation-contenu"
+      },
+      {
+        "id": 4,
+        "title": "Création de contenus",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte44",
+        "description": [
+          "Articles de blog",
+          "Articles de blog",
+          "poste réseaux sociaux",
+          "Bannières",
+          "Brochure",
+          "Emails"
+        ],
+        "link": "/creation-contenu"
+      }
+    ],
+    "services3": [
+      {
+        "id": 1,
+        "title": "Rédaction & Design",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte11",
+        "description": [
+          "Témoignage",
+          "Étude de cas"
+        ],
+        "link": "ServicePage1"
+      },
+      {
+        "id": 2,
+        "title": "Mise en forme",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte22",
+        "description": [
+          "Brochure",
+          "Présentation commerciale"
+        ],
+        "link": "/marketing-digital"
+      },
+      {
+        "id": 3,
+        "title": "Illustration",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte33",
+        "description": [
+          "Tournage & montage vidéo",
+          "Photomontage et retouches photos",
+          "Design illustration & infographie",
+          "Création logo"
+        ],
+        "link": "/creation-contenu"
+      }
+    ],
+    "services4": [
+      {
+        "id": 1,
+        "title": "Identité visuelle & logo",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte11",
+        "description": [
+          "Création & Refonte de logo",
+          "Modernisation & Retouches",
+          "Création d’identité visuelle",
+          "Rédaction de charte graphique avec règles et usages pour vos collaborateurs internes et externes",
+          "Création de templates graphiques."
+        ],
+        "link": "ServicePage1"
+      },
+      {
+        "id": 2,
+        "title": "Naming",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte22",
+        "description": [
+          "Création du nom de votre entreprise",
+          "Proposition de noms de produit ou service",
+          "Aide au dépôt du nom"
+        ],
+        "link": "/marketing-digital"
+      },
+      {
+        "id": 3,
+        "title": "Iconographie",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte33",
+        "description": [
+          "Recherche de photos clées pour renforcer votre image de marque et assurer une cohérence entre vos supports de communication.",
+          "Création d’illustrations statiques ou animées",
+          "Réalisation de pictos personnalisés."
+        ],
+        "link": "/creation-contenu"
+      },
+      {
+        "id": 4,
+        "title": "Montage Photo & Vidéo",
+        "subtitle": "Créez votre page commerciales ou marketing",
+        "image": "carte44",
+        "description": [
+          "Photomontage pour vos supports de communication",
+          "Montage vidéo pour vos interviews",
+          "Vidéo animée pour site web",
+          "Vidéo de présentation",
+          "Vidéo motion design."
+        ],
+        "link": "/creation-contenu"
+      }
+    ]
+  }
+  

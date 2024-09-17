@@ -1,0 +1,29 @@
+.bulle-section {
+  //align-items: center;
+  //max-width: 1200px;
+  max-width: 925px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  justify-items: center;
+  
+  @media (max-width: 1150px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 768px) {
+    //flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
+}
+
+.section1 {
+  margin-bottom: 80px;
+  position: relative;
+}
+

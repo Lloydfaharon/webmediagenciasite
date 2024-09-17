@@ -1,0 +1,47 @@
+.containeur-principal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    h2{
+        color: rgb(68, 139, 226);
+    }
+    .groupImg{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .section-div{
+        width: 800px;
+    }
+
+    @media (max-width: 768px) {
+        .groupImg{
+            width: 100%;
+            height: 250px;
+            
+        }
+        .all-section-div{
+            margin-left: 10px;
+            margin-right: 10px;
+            .section-div{
+                width: 100%;
+                
+            }
+
+        }
+        
+    
+    
+    }
+    @media (max-width: 480px) {
+    
+    }
+    @media (max-width: 390px) {
+    
+    }
+}

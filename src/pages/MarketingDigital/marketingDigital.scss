@@ -1,0 +1,29 @@
+.cartesection {
+  //align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  justify-items: center;
+  
+  @media (max-width: 1188px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 881px) {
+    //flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 580px) {
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.section1 {
+  margin-bottom: 80px;
+  position: relative;
+}
+
