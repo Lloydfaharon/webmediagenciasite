@@ -103,7 +103,7 @@ form {
     box-sizing: border-box;
     border: none;
     outline: none;
-    color: white;
+    color: black;
     border-bottom: 2px solid #a1b6ee;
     &:hover {
       border-bottom: 2px solid #1d61ff;
@@ -119,6 +119,7 @@ form {
     resize: none;
     border: none;
     outline: none;
+    background-color:white;
     border-bottom: 2px solid #a1b6ee;
     &:hover {
       border-bottom: 2px solid #1d61ff;
