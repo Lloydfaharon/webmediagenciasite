@@ -26,10 +26,18 @@
         }
 
     }
+    .carte-titre{
+        h2{
+            color: black;
+        }
+    }
     
     .carte-description{
         width: 100%;
         height: 200px;
+        li{
+            color:black;
+        }
     }
    
     .carte-button{
