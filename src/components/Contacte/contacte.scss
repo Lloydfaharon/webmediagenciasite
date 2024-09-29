@@ -81,11 +81,11 @@
   display: flex;
   justify-content: center;
   .consent {
-    input[type="checkbox"] {
-      background-color: white;
+    input {
+      background-color: white; 
     }
-    
-    label {
+
+    label { 
       color: #333;
       font-size: 11px;
       cursor: pointer;
@@ -113,7 +113,7 @@ form {
     box-sizing: border-box;
     border: none;
     outline: none;
-    color: black;
+    color: white;
     border-bottom: 2px solid #a1b6ee;
     &:hover {
       border-bottom: 2px solid #1d61ff;
