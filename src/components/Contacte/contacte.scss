@@ -82,9 +82,18 @@
   justify-content: center;
   .consent {
     input[type="checkbox"] {
-      background-color: white;
+      background-color: white;  /* Fond blanc */
       appearance: none;         /* Supprime le style par défaut du navigateur */
-      -webkit-appearance: none;
+      -webkit-appearance: none; /* Supprime le style par défaut pour Safari */
+      border: 1px solid #a1b6ee; /* Bordure personnalisée */
+      width: 14px;
+      height: 14px;
+      cursor: pointer;
+    
+      &:checked {
+        background-color: #1d61ff; /* Change la couleur du fond lorsque la case est cochée */
+        border: 1px solid #1d61ff;
+      }
     }
 
     label { 
