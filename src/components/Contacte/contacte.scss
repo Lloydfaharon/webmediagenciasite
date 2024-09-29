@@ -83,13 +83,15 @@
   .consent {
     input[type="checkbox"] {
       background-color: white;
+      appearance: none;         /* Supprime le style par défaut du navigateur */
+      -webkit-appearance: none;
     }
 
     label { 
       color: #333;
       font-size: 11px;
       cursor: pointer;
-    }
+    } 
   }
   @media (max-width: 1000px) {
     width: 100%;
