@@ -6,22 +6,46 @@ import emailjs from '@emailjs/browser';
 function Contacte({ Image }) {
   const form = useRef();
   const [loading, setLoading] = useState(false); // Pour gérer l'état de chargement
+  const [csrfToken] = useState(() => {
+    // Génération d'un jeton CSRF simple (côté client uniquement pour cet exemple)
+    return Math.random().toString(36).substring(2);
+  });
+
+  // Fonction pour valider l'email avec regex côté client
+  const validateEmail = (email) => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Simple validation des champs du formulaire avant l'envoi
+    // Validation des champs avant l'envoi
     const formData = new FormData(form.current);
-    const name = formData.get('name');
-    const email = formData.get('email');
-    const message = formData.get('message');
+    const name = formData.get('name').trim();
+    const email = formData.get('email').trim();
+    const message = formData.get('message').trim();
+    const consent = formData.get('consent'); // Pour la conformité RGPD
 
     if (!name || !email || !message) {
       alert("Veuillez remplir tous les champs requis.");
       return;
     }
 
+    if (!validateEmail(email)) {
+      alert("Veuillez entrer une adresse e-mail valide.");
+      return;
+    }
+
+    if (!consent) {
+      alert("Vous devez accepter les termes et conditions.");
+      return;
+    }
+
     setLoading(true); // Active le mode "chargement"
+
+    // Ajoute le token CSRF dans le formulaire avant envoi
+    formData.append('csrf_token', csrfToken);
 
     emailjs.sendForm('service_uftk24r', 'template_mvvzn9i', form.current, 'JFw_I59xyfvSUt2ir')
       .then((result) => {
@@ -44,11 +68,19 @@ function Contacte({ Image }) {
       </div>
       <div className="contact-form">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder="Nom et prénom" required />
-          <input type="email" name='email' placeholder="E-mail" required />
-          <input type="text" name='number' placeholder="Téléphone" />
+          <input type="hidden" name="csrf_token" value={csrfToken} />
+          <input type="text" name='name' placeholder="* Nom et prénom" required />
+          <input type="email" name='email' placeholder="* E-mail" required />
+          <input type="text" name='number' placeholder="Téléphone" pattern="^[0-9]*$" title="Seuls les chiffres sont autorisés" />
           <input type="text" name='societe' placeholder="Société" />
-          <textarea className="txtera" name='message' placeholder="Entrez votre message" required></textarea>
+          <textarea className="txtera" name='message' placeholder="* Entrez votre message" required></textarea>
+
+          {/* Ajout d'une case pour obtenir le consentement, conforme au RGPD */}
+          <div className="consent">
+            <input type="checkbox" name="consent" id="consent" required />
+            <label htmlFor="consent">J&#39;accepte que mes données soient traitées conformément à la politique de confidentialité.</label>
+          </div>
+
           <button type="submit" disabled={loading}>
             {loading ? "Envoi en cours..." : "Envoyer"}
           </button>
@@ -63,3 +95,4 @@ Contacte.propTypes = {
 };
 
 export default Contacte;
+
