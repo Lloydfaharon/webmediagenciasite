@@ -81,7 +81,7 @@
   display: flex;
   justify-content: center;
   .consent {
-    input{
+    input[type="checkbox"]{
       background-color: white;
     }
     label {
@@ -95,7 +95,7 @@
 
   @media (max-width: 480px) {
     width: 100%;
-    height: 350px;
+    height: 370px;
   }
 }
 form {
@@ -170,6 +170,6 @@ form {
     }
   }
   @media (max-width: 390px) {
-    height: 350px;
+    height: 370px;
   }
 }
