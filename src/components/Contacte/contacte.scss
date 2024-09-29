@@ -3,16 +3,16 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  height: 600px;
+  height: auto;
   //background-color: aqua;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border-radius: 30px;
-  box-shadow: 0 4px 25px rgba(0, 43, 120, 0.15);
-  padding: 10px;
-  gap: 50px;
-  overflow: hidden;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around; 
+  border-radius: 30px; 
+  box-shadow: 0 4px 25px rgba(0, 43, 120, 0.15); 
+  padding: 10px; 
+  gap: 50px; 
+  overflow: hidden; 
 
   @media (max-width: 1000px) {
     flex-direction: column;
@@ -21,17 +21,16 @@
     padding: 0px;
   }
 
-  @media (max-width: 480px) {
-    flex-direction: column;
-    border-radius: 0px;
-    box-shadow: none;
+  @media (max-width: 480px) { 
+    flex-direction: column; 
+    border-radius: 0px; 
+    box-shadow: none; 
   }
   @media (max-width: 390px) {
     border-radius: 0px;
   }
   opacity: 0; /* Commence transparent */
   animation: fadeIn 3s ease-in-out forwards; /* Durée de 2s avec une transition douce */
-
 
   @keyframes fadeIn {
     from {
@@ -81,6 +80,15 @@
   height: 585px;
   display: flex;
   justify-content: center;
+  .consent {
+    input{
+      background-color: white;
+    }
+    label {
+      color: black;
+      font-size: 11px;
+    }
+  }
   @media (max-width: 1000px) {
     width: 100%;
   }
@@ -95,7 +103,7 @@ form {
   flex-direction: column;
   justify-content: center;
   width: 80%;
-  //height: 585px;
+  //height: 350px;
   gap: 20px;
   input {
     background-color: white;
@@ -111,7 +119,6 @@ form {
   }
   ::placeholder {
     font-size: 14px;
-    
   }
   .txtera {
     width: 100%;
@@ -119,7 +126,7 @@ form {
     resize: none;
     border: none;
     outline: none;
-    background-color:white;
+    background-color: white;
     border-bottom: 2px solid #a1b6ee;
     &:hover {
       border-bottom: 2px solid #1d61ff;
@@ -148,7 +155,7 @@ form {
     transition: 0.2s ease-in-out;
     @media (max-width: 1000px) {
       margin-top: 0px;
-      margin-bottom: 40px;
+      // margin-bottom: 40px;
     }
     @media (max-width: 390px) {
       height: 45px;
@@ -161,5 +168,8 @@ form {
     h2 {
       color: white;
     }
+  }
+  @media (max-width: 390px) {
+    height: 350px;
   }
 }
