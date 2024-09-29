@@ -81,12 +81,14 @@
   display: flex;
   justify-content: center;
   .consent {
-    input[type="checkbox"]{
+    input[type="checkbox"] {
       background-color: white;
     }
+    
     label {
-      color: black;
+      color: #333;
       font-size: 11px;
+      cursor: pointer;
     }
   }
   @media (max-width: 1000px) {
