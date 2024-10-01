@@ -71,7 +71,7 @@ function Contacte({ Image }) {
           <input type="hidden" name="csrf_token" value={csrfToken} />
           <input type="text" name='name' placeholder="* Nom et prénom" required />
           <input type="email" name='email' placeholder="* E-mail" required />
-          <input type="text" name='number' placeholder="Téléphone" pattern="^[0-9]*$" title="Seuls les chiffres sont autorisés" />
+          <input type="text" name='number' placeholder="Téléphone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" title="Seuls les chiffres sont autorisés" />
           <input type="text" name='societe' placeholder="Société" />
           <textarea className="txtera" name='message' placeholder="* Entrez votre message" required></textarea>
 
