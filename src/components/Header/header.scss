@@ -31,6 +31,7 @@
 }
 
 .navigation {
+  margin-top: 5px;
   background-color: white;
   //max-width: 1200px;
   margin-left: auto;
@@ -63,7 +64,7 @@
     }
 
     @media (max-width: 480px) {
-      margin: 0px 10px;
+      margin: 0px 0px;
       width: 100%;
       
     }
@@ -97,13 +98,14 @@
       display: flex; // Afficher le menu lorsqu'il est ouvert
       @media (max-width: 480px) {
         flex-direction: column;
+        font-size: 20px;
       }
     }
     
     
     @media (max-width: 768px) {
       gap: 30px;
-      font-size: 16px;
+      font-size: 14px;
     }
 
     @media (max-width: 480px) {
