@@ -148,6 +148,13 @@ form {
       height: 43px;
     }
   }
+  .consent{
+    display:flex;
+    align-items:baseline;
+    @media (max-width: 626px) {
+      align-items: flex-start;
+    }  
+  }
 
   button {
     margin: 0 auto;

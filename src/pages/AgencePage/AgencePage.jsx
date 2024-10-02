@@ -1,5 +1,6 @@
 import "./AgencePage.scss";
 import ImageGt from "../../images/group-travaille.webp";
+import { Link } from "react-router-dom";
 
 function AgencePage() {
   return (
@@ -71,9 +72,12 @@ function AgencePage() {
             </p>
           </div>
           <div className="section-div">
-            <h2>Contactez-nous</h2>
-            <p>Téléphone :</p>
-            <p>Email : </p>
+            <button>
+              <Link to="/contact">
+                <h2>Contactez-nous</h2>
+              </Link>
+            </button>
+            
           </div>
         </div>
       </div>
