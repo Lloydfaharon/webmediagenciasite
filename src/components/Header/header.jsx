@@ -24,6 +24,7 @@ export default function Header() {
       const target = location.state.target;
       document.querySelector(target).scrollIntoView({ behavior: "smooth" });
     }
+    setMenuOpen(false);
   }, [location]);
 
   return (
