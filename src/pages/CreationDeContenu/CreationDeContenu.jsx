@@ -39,7 +39,7 @@ function ServicePoge1() {
           Image2={Image2}
         />
         <Bulle
-          texte="Contenu créatif pour des résultats percutants"
+          texte="Contenu créatif pour des résultats impactants"
           size="22px"
         />
         <div className="bulle-section">

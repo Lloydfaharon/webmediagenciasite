@@ -36,7 +36,7 @@ function HomePage() {
         title="Agence Web & Marketing Digital"
       />
       <Bulle 
-        texte="La visibilité est la clé de la réussite."
+        texte="La visibilité est la clé de la réussite"
         
       />
       <section className="section-bulle">

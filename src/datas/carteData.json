@@ -4,10 +4,10 @@
       "title": "Développement Web ",
       "image": "carte1",
       "description": [
-        "Création de site web",
-        "Refonte de site web",
-        "site vitrine",
-        "site e-commerce",
+        "Création de Site Web",
+        "Refonte de Site Web",
+        "Site vitrine",
+        "Site e-commerce",
         "Landing Page",
         "Optimisation SEO"
       ],
@@ -15,24 +15,24 @@
     },
     {
       "id": 2,
-      "title": "Marketing digital",
+      "title": "Marketing Digital",
       "image": "carte2",
       "description": [
         "Stratégie Marketing",
-        "Acquisition",
+        "Acquisition clients",
         "Social Media",
-        "creation de contenu"
+        "Création de contenu"
       ],
       "link": "marketing-digital"
     },
     {
       "id": 3,
-      "title": "Creation de contenu",
+      "title": "Création de contenu",
       "image": "carte3",
       "description": [
         "Témoignage",
-        "Presantation commerciale",
-        "Tournage et montage video"
+        "Présentation commerciale",
+        "Tournage et montage vidéo"
       ],
       "link": "/creation-contenu"
 
@@ -45,7 +45,7 @@
         "Logotype",
         "Branding",
         "Identité visuelle",
-        "Montage video et Photo"
+        "Montage vidéo et photo"
       ],
       "link": "/design-branding"
     }

@@ -46,7 +46,7 @@ function ServicePoge1() {
         Image2={Image2}
       />
       <Bulle
-        texte="L'identité visuelle au service de votre succès!"
+        texte="L'identité visuelle au service de votre succès !"
           size="22px"
       />
       <div className="bulle-section2">

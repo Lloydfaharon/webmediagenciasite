@@ -62,19 +62,19 @@ function AgencePage() {
             </ul>
           </div>
           <div className="section-div">
-            <h2>Rejoignez-nous</h2>
+            <h2>Contactez-nous</h2>
             <p>
               Laissez-nous vous aider à écrire le prochain chapitre de votre
               succès digital.
               <br />
-              Contactez-nous dès aujourd&apos;hui et découvrons ensemble comment
+              Ecrivez-nous dès aujourd&apos;hui et découvrons ensemble comment
               nous pouvons transformer votre vision en réalité.
             </p>
           </div>
           <div className="section-div">
             <button>
               <Link to="/contact">
-                <h2>Contactez-nous</h2>
+                <h2>Prenez rendez-vous </h2>
               </Link>
             </button>
             

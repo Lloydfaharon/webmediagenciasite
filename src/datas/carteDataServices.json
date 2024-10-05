@@ -64,9 +64,10 @@
         "subtitle": "Créez votre page commerciales ou marketing",
         "image": "carte11",
         "description": [
-          "Strategie de comunication",
+          "Stratégie de communication",
           "Création de planning éditorial",
-          "Redaction d'articles de blog & newsletters"
+          "Rédaction d'articles de blog & newsletters",
+          "Community management"
         ],
         "link": "/ServicePage1"
       },
@@ -80,7 +81,7 @@
           "Génération de Prospect (Lead Gen)",
           "Acquisition Payante (Google, LinkedIn…)",
           "Référencement Organique (SEO)",
-          "Optimisation &amp; Reporting des campagnes"
+          "Optimisation et Reporting des campagnes"
         ],
         "link": "/marketing-digital"
       },
@@ -91,7 +92,7 @@
         "image": "carte33",
         "description": [
           "Etude des enjeux marketing et commerciaux",
-          "Définition &amp; Mise en place de la Stratégie Marketing",
+          "Définition et Mise en place de la Stratégie Marketing",
           "Priorisation et Structuration des actions et canaux",
           "Définition du budget",
           "Constitution d’un planning"
@@ -105,11 +106,10 @@
         "image": "carte44",
         "description": [
           "Articles de blog",
-          "Articles de blog",
-          "poste réseaux sociaux",
+          "Posts réseaux sociaux",
           "Bannières",
-          "Brochure",
-          "Emails"
+          "Brochures",
+          "Emailing"
         ],
         "link": "/creation-contenu"
       }
@@ -162,7 +162,7 @@
           "Modernisation & Retouches",
           "Création d’identité visuelle",
           "Rédaction de charte graphique avec règles et usages pour vos collaborateurs internes et externes",
-          "Création de templates graphiques."
+          "Création de templates graphiques"
         ],
         "link": "ServicePage1"
       },
@@ -184,9 +184,9 @@
         "subtitle": "Créez votre page commerciales ou marketing",
         "image": "carte33",
         "description": [
-          "Recherche de photos clées pour renforcer votre image de marque et assurer une cohérence entre vos supports de communication.",
+          "Recherche de photos clés pour renforcer votre image de marque et assurer une cohérence entre vos supports de communication",
           "Création d’illustrations statiques ou animées",
-          "Réalisation de pictos personnalisés."
+          "Réalisation de pictogrammes personnalisés"
         ],
         "link": "/creation-contenu"
       },
@@ -200,7 +200,7 @@
           "Montage vidéo pour vos interviews",
           "Vidéo animée pour site web",
           "Vidéo de présentation",
-          "Vidéo motion design."
+          "Vidéo motion design"
         ],
         "link": "/creation-contenu"
       }
